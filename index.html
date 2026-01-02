@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SubMine - Minería Subterránea Inteligente</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0f0f0f;
+            color: #e5e7eb;
+            font-family: 'Barlow Condensed', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3, .font-industrial {
+            font-family: 'Orbitron', sans-serif;
+        }
+        .rock-texture {
+            background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('https://images.unsplash.com/photo-1518112391131-01648a803734?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .gold-glow {
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+        }
+        .text-gold {
+            color: #FFD700;
+        }
+        .bg-gold {
+            background-color: #FFD700;
+        }
+        .border-gold {
+            border-color: #FFD700;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body class="rock-texture">
+    <div id="root"></div>
+</body>
+</html>

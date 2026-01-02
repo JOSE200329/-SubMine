@@ -1,0 +1,7 @@
+{
+  "name": "SubMine - Copiloto de Minería Subterránea",
+  "description": "Herramienta técnica avanzada para la optimización de perforación, voladura y costos en operaciones mineras subterráneas con asistencia de IA.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
